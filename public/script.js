@@ -1,7 +1,7 @@
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 function FunctionComponent() {
-   return <h1>Hello!</h1>;
+   return <h1>{this.props.title}</h1>;
 }
 
 class ClassComponent extends React.Component {
@@ -12,7 +12,7 @@ class ClassComponent extends React.Component {
 }
 
 let page = <>
-   <FunctionComponent/>
+   <FunctionComponent title="Hello"/>
    <ClassComponent size="2"/>
 </>;
 
