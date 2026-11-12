@@ -1,7 +1,7 @@
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 function FunctionComponent() {
-   return <h1>{this.props.title}</h1>;
+   return <h1>{props.title}</h1>;
 }
 
 class ClassComponent extends React.Component {
