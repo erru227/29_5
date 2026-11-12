@@ -1,6 +1,6 @@
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-function FunctionComponent() {
+function FunctionComponent(props) {
    return <h1>{props.title}</h1>;
 }
 
