@@ -6,7 +6,8 @@ function FunctionComponent() {
 
 class ClassComponent extends React.Component {
    render() {
-      return <h{this.props.size}>This is the Second Part</h{this.props.size}>;
+      let tag = "h"+{this.props.size};
+      return <tag>This is the Second Part</tag>;
    }
 }
 
